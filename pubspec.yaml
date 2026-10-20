@@ -1,0 +1,27 @@
+name: photo_swipe
+description: Swipe right to keep a photo, swipe left to trash it. Clean up your gallery Tinder-style.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Reads the device gallery, makes thumbnails, deletes photos
+  photo_manager: ^3.6.0
+
+  # Local database: remembers which photos were kept / trashed
+  sqflite: ^2.4.0
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

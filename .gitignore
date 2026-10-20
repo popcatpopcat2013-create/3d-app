@@ -1,0 +1,31 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock.bak
+
+# Android (generated or machine-specific)
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.iml
+*.class
+
+# Signing keys: NEVER commit these
+*.keystore
+*.jks
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Release APKs made by hand
+*.apk
